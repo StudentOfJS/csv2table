@@ -82,6 +82,56 @@ _basic table with header and global styles_
 <BasicTable csv={TEST_DATA} csvColumnDelimiter="," />
 ```
 
+_basic table with passed class_
+![table with blue header](https://github.com/StudentOfJS/csv2table/blob/master/images/blueTable.png)
+
+```
+<script>
+  import { BasicTable } from "./table";
+  import { TEST_DATA } from "../testData";
+</script>
+
+<style>
+  :global(.paleBlueRows) {
+    font-family: Tahoma, Geneva, sans-serif;
+    border: 1px solid #ffffff;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  :global(.paleBlueRows) td,
+  :global(.paleBlueRows) th {
+    border: 1px solid #ffffff;
+    padding: 3px 2px;
+  }
+  :global(.paleBlueRows) tbody td {
+    font-size: 14px;
+    color: #333333;
+  }
+  :global(.paleBlueRows) tr:nth-child(even) {
+    background: #d0e4f5;
+  }
+  :global(.paleBlueRows) thead {
+    background: #0b6fa4;
+    border-bottom: 5px solid #ffffff;
+  }
+  :global(.paleBlueRows) thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-left: 2px solid #ffffff;
+  }
+  :global(.paleBlueRows) thead th:first-child {
+    border-left: none;
+  }
+</style>
+
+<BasicTable csv={TEST_DATA} csvColumnDelimiter="," tableClass="paleBlueRows" />
+
+```
+
 ## Options 🛠️
 
 _defaults_
