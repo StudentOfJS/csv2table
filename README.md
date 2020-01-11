@@ -2,7 +2,7 @@
 
 A svelte library for creating a basic table from a CSV file.
 
-- light weight
+- light weight 16.6kB uncompressed
 - no default styling
 
 ## Starting 🚀
