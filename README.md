@@ -48,7 +48,7 @@ _basic table with header_
 ```
 
 _basic table with header and global styles_
-![table with green header](https://github.com/studentofjs/csv2table/images/greenTable.png)
+![table with green header](https://github.com/StudentOfJS/csv2table/blob/master/images/greenTable.png)
 
 ```
 
