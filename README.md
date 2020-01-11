@@ -48,6 +48,7 @@ _basic table with header_
 ```
 
 _basic table with header and global styles_
+![table with green header](https://github.com/studentofjs/csv2table/images/greenTable.png)
 
 ```
 
@@ -94,10 +95,6 @@ _styling_
 - tableClass
 - tableRowClass
 - tableColumnClass
-
-## Contributing 🖇️
-
-Please read the [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) for details of our code of conduct, and the process to send us pull requests.
 
 ## Versioned 📌
 
