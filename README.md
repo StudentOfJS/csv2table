@@ -23,32 +23,33 @@ _or npm_
 
 `npm i csv2table`
 
-_ Finish with an example of how to obtain system data or how to use it for a small demo_
-
 ## Usage 📦
 
 _basic table without header_
-``
 
+```
 <script>
   import {BasicTable} from 'csv2table'
   import csvData from './csvData'
 </script>
 <BasicTable csv={csvData} csvColumnDelimiter="," hasHeader={false} />
-``
+
+```
 
 _basic table with header_
-``
+
+```
 
 <script>
   import {BasicTable} from 'csv2table'
   import csvData from './csvData'
 </script>'
 <BasicTable csv={csvData} csvColumnDelimiter="," />
-``
+```
 
 _basic table with header and global styles_
-``
+
+```
 
 <script>
   import { BasicTable } from "./table";
@@ -78,7 +79,7 @@ _basic table with header and global styles_
 </style>
 
 <BasicTable csv={TEST_DATA} csvColumnDelimiter="," />
-``
+```
 
 ## Options 🛠️
 
